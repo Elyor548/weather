@@ -1,0 +1,292 @@
+@media (min-width: 768px) {
+  body {
+    background-color: #5e81ac;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+  }
+
+  .SecondHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 700px;
+  }
+
+  .Web-siteName h1 {
+    position: relative;
+    top: 8px;
+  }
+
+  .Poisck input {
+    width: 100%;
+    padding: 0.8rem 1rem 0.8rem 3rem;
+    border: 2px solid #e0e6ed;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    transition: var(--transition);
+  }
+
+  .Poisck input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .search-icon {
+    position: relative;
+    right: 140px;
+    top: 37px;
+    color: black;
+    width: 16px;
+    z-index: 1000;
+  }
+
+  .SearchCountry {
+    border-radius: 25px;
+    border-color: #5e81ac;
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    height: 20px;
+  }
+
+  section {
+    margin-top: 30px;
+    padding-top: 10px;
+    width: 600px;
+    background-color: #ffffff;
+    height: 200px;
+    border-radius: 25px;
+    border: #5e81ac solid 1.5px;
+  }
+
+  section .NameCountry,
+  .DataOfday,
+  h3,
+  h2 {
+    padding-left: 10px;
+    margin: 0;
+    color: #5e81ac;
+  }
+
+  .NameCountry {
+    padding-top: 15px;
+    font-size: 20px;
+  }
+
+  .DataOfday {
+    font-size: 15px;
+  }
+
+  .Temperature p {
+    padding-left: 70px;
+    padding-top: 10px;
+    margin: 0;
+    color: #5e81ac;
+    font-size: 50px;
+  }
+
+  .Temperature {
+    display: flex;
+  }
+  .Temperature h4 {
+    padding-top: 10px;
+    margin: 0;
+    color: #5e81ac;
+    font-size: 20px;
+  }
+
+  .NameWeather p {
+    padding-left: 20px;
+    margin: 0;
+    color: #5e81ac;
+    font-size: 20px;
+  }
+
+  .button-stil {
+    padding: 10px 25px;
+    height: 35px;
+    background-color: #ffffff;
+    color: #5b76a5;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+    border: none;
+    border-radius: 25px;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 7px;
+  }
+
+  .inputwithbutton {
+    display: flex;
+    gap: 10px;
+    
+  }
+
+  #forecast-container {
+    display: flex;      
+    gap: 20px;          
+    justify-content:center; 
+    margin-top: 20px;
+    color: #5e81ac;
+
+
+}
+
+.forecast-card {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 100px;
+}
+  
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  body {
+    background-color: #5e81ac;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+  }
+
+  .SecondHeader {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Web-siteName h1 {
+    font-size: 20px;
+  }
+
+  .Poisck input {
+    width: 150px;
+    max-width: 300px;
+    font-size: 12px;
+    padding: 5px 9px 5px 30px;
+    border: 2px solid #2380eb;
+    border-radius: 25px;
+    transition: var(--transition);
+  }
+  .Poisck input:focus {
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .search-icon {
+    position: relative;
+    right: 125px;
+    top: 24px;
+    color: black;
+    width: 12px;
+    z-index: 1000;
+  }
+
+  section {
+    padding-top: 10px;
+    width: 360px;
+    background-color: #ffffff;
+    height: 150px;
+    border-radius: 25px;
+    border: #5e81ac solid 1.5px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  section .NameCountry,
+  .DataOfday,
+  h3,
+  h2 {
+    padding-left: 10px;
+    margin: 0;
+    color: #5e81ac;
+  }
+
+  .NameCountry {
+    padding-top: 15px;
+    font-size: 15px;
+  }
+
+  .DataOfday {
+    font-size: 12px;
+  }
+
+  .Temperature p {
+    padding-left: 70px;
+    padding-top: 10px;
+    margin: 0;
+    color: #5e81ac;
+    font-size: 30px;
+  }
+
+  .Temperature {
+    display: flex;
+  }
+  .Temperature h4 {
+    padding-top: 10px;
+    margin: 0;
+    color: #5e81ac;
+    font-size: 13px;
+  }
+
+  .NameWeather p {
+    padding-left: 20px;
+    margin: 0;
+    color: #5e81ac;
+    font-size: 15px;
+  }
+
+  .button-stil {
+    padding: 5px 20px;
+    height: 25px;
+    background-color: #ffffff;
+    color: #5b76a5;
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 1px;
+  }
+
+  .inputwithbutton {
+    display: flex;
+    gap: 10px;
+  }
+
+
+  #forecast-container {
+    display: flex;      
+    gap: 20px;          
+    justify-content:center; 
+    margin-top: 20px;
+    color: #5e81ac;
+
+
+}
+
+.forecast-card {
+    background: #ffffff; 
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 100px;
+}
+
+
+}
